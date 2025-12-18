@@ -1,0 +1,13 @@
+.site-header{background:var(--clr-primary);color:#fff;padding:.75rem 0;position:sticky;top:0;z-index:20}
+.head-wrap{display:flex;align-items:center;justify-content:space-between;width:min(90%,var(--max-width));margin-inline:auto}
+.logo img{height:42px}
+.hamburger{display:none;flex-direction:column;gap:4px;background:none;border:none}
+.hamburger span{width:24px;height:3px;background:#fff;border-radius:2px}
+.nav-list{list-style:none;display:flex;gap:1.5rem;align-items:center}
+.nav-list a{color:#fff;font-weight:600}
+.btn--accent{background:var(--clr-accent);color:#fff;padding:.5rem 1rem;border-radius:var(--radius)}
+@media(max-width:768px){
+  .hamburger{display:flex}
+  .nav-list{position:absolute;left:0;right:0;top:60px;background:var(--clr-primary);flex-direction:column;padding:1rem 0;transform:translateY(-150%);transition:var(--transition)}  
+  .nav-list.open{transform:translateY(0)}
+}
