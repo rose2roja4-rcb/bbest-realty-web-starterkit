@@ -1,0 +1,12 @@
+.hero{background:url(assets/images/hero.jpg) center/cover no-repeat;height:70vh;display:flex;align-items:center}
+.hero__text{background:rgba(255,255,255,.85);padding:2rem;max-width:520px;margin-left:5%}
+.hero h1{font-family:var(--ff-head);font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1rem}
+.hero__ctas{margin-top:1.5rem;display:flex;gap:1rem}
+.icon-card{text-align:center;padding:1.5rem;border:1px solid #e5e7eb;border-radius:var(--radius)}
+.icon-card img{height:48px;margin:0 auto .75rem}
+.bg-grey{background:var(--clr-grey)}
+.project-grid{display:grid;gap:2rem;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.project-card{border:1px solid #e5e7eb;border-radius:var(--radius);overflow:hidden;transition:var(--transition)}
+.project-card:hover{transform:translateY(-4px)}
+.card__body{padding:1rem}
+.tag{display:inline-block;background:var(--clr-secondary);color:#fff;font-size:.7rem;padding:.25rem .5rem;border-radius:99px;margin-bottom:.5rem}
